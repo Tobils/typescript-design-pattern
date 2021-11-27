@@ -2,12 +2,7 @@
 
 1. installation: npm i -g typescript ts-node
 
-overview
-
 - syntax feature vs design pattern {how do we use interface to write reusable code}
-
-goal
-
 - understanding ts
 - functional typing + annotations
 - type definition files
@@ -19,3 +14,8 @@ goal
 ## Project
 
 1. fetchjson
+2. features
+3. rrts {react redux typescript} `npx create-react-app rrts --template typescript` => ` npm i redux react-redux axios redux-thunk`
+
+Type Annotoation => developer tell TS the type
+Type inference => TS guesses the type
