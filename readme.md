@@ -15,7 +15,7 @@
 
 1. fetchjson
 2. features
-3. rrts {react redux typescript} `npx create-react-app rrts --template typescript` => ` npm i redux react-redux axios redux-thunk`
+3. rrts {react redux typescript} `npx create-react-app rrts --template typescript` => ` npm i redux react-redux axios redux-thunk` => `npm run eject` => `npm i sass-loader node-sass --save`
 
 Type Annotoation => developer tell TS the type
 Type inference => TS guesses the type
