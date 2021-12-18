@@ -1,0 +1,17 @@
+- Sorter.ts
+  - sort()
+
+- NumberCollection.ts 
+  - swap(i, j)
+  - compare(i, j)
+  - length
+
+- CharacterCollection.ts 
+  - swap(i, j)
+  - compare(i, j)
+  - length
+
+- LinkedList.ts 
+  - swap(i, j)
+  - compare(i, j)
+  - length

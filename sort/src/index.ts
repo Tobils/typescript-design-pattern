@@ -1,21 +1,10 @@
-class Sorter {
-  constructor(public collection: number[]) {}
+import { Sorter } from "./Sorter";
+import { NumberCollection } from "./NumberCollection";
 
-  sort(): void {
-    const { length } = this.collection;
-    for (let i = 0; i < length; i++) {
-      for (let j = 0; j < length - i - 1; j++) {
-        if (this.collection[j] > this.collection[j + 1]) {
-          const tmp = this.collection[j];
-          this.collection[j] = this.collection[j + 1];
-          this.collection[j + 1] = tmp;
-        }
-      }
-    }
-
-    console.log(this.collection);
-  }
-}
-
-const sorter = new Sorter([10, 2, 3, -5, 1]);
+const numberCollection = new NumberCollection([4, 3, 6, 1, 2, 1, 0]);
+const sorter = new Sorter(numberCollection);
+console.log(numberCollection.data);
 sorter.sort();
+console.group("number-collection");
+console.log(numberCollection.data);
+console.groupEnd();
